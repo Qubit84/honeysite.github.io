@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+	src: local("Centuru Gothic"),
+       url("../fonts/CenturyGothic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+	src: local("Centuru Gothic"),
+       url("../fonts/CenturyGothic-Bold.woff") format("woff");
+}
+
+*,*:before,*after {
+	box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+	margin: 0;
+	color: white;
+	font-family: Open Sans;
+  height: 100%;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.header-wrapper {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.title {
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0;
+  padding-top: 25px;
+	color: #1b1b1b;
+ 	text-align: center;
+}
+
+.logo {
+	font-family: Caveat;
+	color: white;
+	font-size: 30px;
+	text-shadow: 2px 0px 0px #494949;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.phone-number {
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+li {
+	display: inline;
+}
+
+/*header end*/
+
+.intro {
+	background-image: url('../image/intro-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.intro-content {
+	height: 100vh;
+}
+
+.intro-title {
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 60px;
+	margin: 0;
+	padding-top: 230px;
+	}
+
+.intro-description {
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+.order-now-button {
+	background-color: #e8b400;
+	border: none;
+	padding: 15px 35px;
+	border-radius: 23px;
+	box-shadow: 0px 3px 0px 0px #745e00;
+	margin-top: 40px;
+	transition: all 0.5s ease;
+}
+
+.text-button {
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.order-now-button:hover {
+	box-shadow: none;
+	background-color: #ffc600;
+}
+
+/*intro end*/
+
+.products {
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(236,235,236,1) 0%, rgba(255,255,255,0) 13%);
+  margin-bottom: 50px;
+}
+
+.products-content {
+	height: 100%;
+}
+
+
+.card-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  font-family: Century Gothic;
+	font-weight: bold;
+  font-size: 16px;
+  color: #1b1b1b;
+  text-align: center;
+  line-height: 20px;
+  margin: 50px;
+
+}
+
+.product>h4 {
+  margin-top: 10px;
+}
+
+.product>img {
+  border: solid 1px #f2bc03;
+}
+
+.buy-button {
+  background-color: #e8b400;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 23px;
+	box-shadow: 0px 3px 0px 0px #745e00;
+  margin-top: 15px;
+  transition: all 0.5s ease;
+}
+
+.buy-button:hover {
+	box-shadow: none;
+	background-color: #ffc600;
+  text-shadow: none;
+}
+
+/*products end*/
+
+.our-advantages {
+	background-color: #fed337;
+  padding-bottom: 60px;
+}
+
+.advantages-content {
+	height: 100%;
+}
+
+
+.cards-advantages {
+	display: flex;
+  flex-flow: row nowrap;
+	justify-content: space-around;
+  margin-top: 50px;
+}
+
+.card-advantages {
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	font-family: Open Sans;
+	font-size: 14px;
+  width: 100%;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.block-text {
+  margin-top: 10px;
+
+}
+
+.block-text>h5 {
+	font-size: 16px;
+	color: black;
+}
+
+.card-advantages>img {
+  padding: 10px;
+}
+
+/*advantages end*/
+
+.photos {
+	padding-bottom: 60px;
+}
+
+.photos-content {
+	height: 100%;
+}
+
+.photos-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.photos-flex>img {
+	margin: 15px 10px;
+}
+
+/*photos end*/
+
+.about-me {
+	background-color: #fed337;
+  padding-bottom: 60px;
+}
+
+.about-me-content {
+	height: 100%;
+}
+
+.about-me-flex {
+	display: flex;
+	margin-top: 40px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.about-me-text {
+	background-color: white;
+	color: black;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 10px 15px;
+	max-width: 50%;
+}
+
+.about-me-flex>img{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+	.text-title {
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0;
+	color: #1b1b1b;
+ 	text-align: left;
+}
+
+/*about me end*/
+
+.passport {
+	padding-bottom: 60px;
+}
+
+.passport-content {
+	height: 100%;
+}
+
+.passport-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-top: 40px;
+}
