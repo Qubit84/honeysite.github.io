@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
  	text-align: center;
 }
 
+
 .logo {
 	font-family: Caveat;
 	color: white;
@@ -321,4 +322,93 @@ li {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	margin-top: 40px;
+}
+
+/*passport end*/
+
+.form {
+	background-color: #fed337;
+  padding-bottom: 60px;
+}
+
+.feedback-form {
+	background-color: white;
+	color: #1b1b1b;
+	font-family: Open Sans;
+	font-weight: bold;
+	border-radius: 15px;
+	text-align: left;
+	box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+
+}
+
+.feedback-form>div {
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+.feedback-form>div>input,textarea {
+	border: none;
+	background-color: #dddddd;
+	border-radius: 5px;
+	padding: 5px 5px;
+	box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+	width: 100%;
+	outline: none;
+}
+
+.feedback-form>div>textarea {
+	resize: none;
+}
+
+.feedback-form>div>label {
+	display: block;
+	margin-bottom: 8px; 
+}
+
+.form-button {
+	color: white;
+	margin-bottom: 20px;
+	background-color: #e8b400;
+	border: none;
+	padding: 10px 10px;
+	border-radius: 10px;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  transition: all 0.5s ease;
+}
+
+.form-button:hover {
+	background-color: #ffc600;
+  text-shadow: none;
+}
+
+/*form end*/
+
+footer {
+	background-color: #1c1c1c;
+	
+}
+
+.footer-wrapper {
+	width: 100%;
+	height: 120px;
+	color: #dddddd;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.copyright {
+	letter-spacing: 0.15em;
+}
+
+.contact-footer {
+	font-size: 15px;
 }

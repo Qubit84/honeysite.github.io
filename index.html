@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="css/icons.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<title>Пасека семьи Герш</title>
 </head>
 
@@ -33,14 +35,14 @@
 				<h3 class="intro-description">Закажите мёд напрямую от производителя <br> с доставкой по всей России</h3>
 
 				<button class="order-now-button">
-						<a href ="" class="text-button">Заказать сейчас!</a>
+						<a href ="#products" class="text-button">Заказать сейчас!</a>
 				</button>
 			</div>
 		</div>
 	</section>
 	<!-- intro end -->
 
-	<section class="products">
+	<section class="products" id="products">
 		<div class="container">
 			<div class="products-content">
 				<h2 class="title">Продукция</h2>
@@ -189,12 +191,58 @@
 		</div>
 		
 	</section>
+	<!-- passport end -->
 
+	<section class="form">
+		<div class="container">
+			<div class="form-content">
+				<h2 class="title">Буду рад ответить на ваши вопросы</h2>
 
+				<form action="" class="feedback-form">
 
+					<div>
+						<label for="name">Имя</label>
+						<input type="text" name="name">
+					</div>
 
+					<div>
+						<label for="email">E-mail</label>
+						<input type="text" name="email">
+					</div>
 
+					<div>
+						<label for="msg">Ваш вопрос</label>
+						<textarea name="msg" id="" rows="5"></textarea>
+					</div>
 
+					<div>
+						<button class="form-button" type="submit">Отправить</button>	
+					</div>
+				</form>
+				
+			</div>
+		</div>
+	</section>
+	<!-- form end -->
 
+	<footer>
+		<div class="container">
+			<div class="footer-wrapper">
+				<div class="copyright">
+					<span>© 2023 Пасека семьи Герш</span>	
+				</div>
+
+				<div class="contact-footer">
+					<a class="phone-number" href="tel:79618787953">+7 961 87 87 953</a>
+
+					<ul class="socials">
+					    	<li><i class="fa-brands fa-whatsapp"></i><a href=""> Whatsapp</a></li>
+					    	<li><i class="fa-brands fa-vk"></i><a href=""> Вконтакте</a></li>
+					</ul>
+					<span>Email: Honey@gmail.com</span>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
