@@ -1,0 +1,122 @@
+@media(max-width: 1260px) {
+	.passport-flex {
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: nowrap;
+		}
+}
+
+@media(max-width: 815px) {
+	.cards-advantages {
+  		flex-direction: row;
+  		flex-wrap: wrap;
+  		margin-top: 50px;
+
+	}
+
+	.card-advantages{
+		margin-top: 15px;
+		display: block;
+	}
+
+	.card-advantages>img {
+  		margin: 10px;
+  		float: left;
+	}
+
+	.feedback-form {
+		width: 90%;
+	}
+
+	.intro-content {
+		text-align: center;
+	}
+
+	.intro {
+		background-size: cover;
+	}
+
+
+}
+
+@media(max-width: 650px) {
+	.about-me-flex{
+		flex-direction: column;
+	}
+
+	.about-me-text {
+		max-width: 100%;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+
+	.about-me-flex>img{
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0px;
+		width: 100%;
+		max-width: 578px;
+		max-height: 758px;
+
+	}
+}
+
+@media(max-width: 480px) {
+	.header-wrapper{
+		flex-direction: column;
+	}
+
+	.logo {
+		margin: 20px 0px;
+		font-size: 35px;
+	}
+
+	.intro-title {
+		font-size: 40px;
+
+	}
+
+	.intro-description {
+		font-size: 16px;
+	}
+
+	.title{
+		font-size: 40px;
+	}
+
+	.footer-wrapper {
+		flex-direction: column;
+		height: 190px;
+	}
+
+	.contact-footer-wrapper{
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+
+	.contact-footer {
+		margin-top: 8px;
+		width: 250px;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.photo {
+		width: 100%;
+		max-width: 1280px;
+		max-height: 720px;
+	}
+
+	.passport-flex>img {
+		width: 100%;
+		max-width: 800px;
+		max-height: 800px;
+		
+	}
+
+	
+
+}
