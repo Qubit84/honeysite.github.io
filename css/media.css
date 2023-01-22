@@ -88,13 +88,17 @@
 
 	.footer-wrapper {
 		flex-direction: column;
-		height: 190px;
+		justify-content: space-between;
+		height: 195px;
+		background-color: #1c1c1c;
 	}
 
 	.contact-footer-wrapper{
 		display: flex;
 		flex-direction: column;
 		margin-top: 20px;
+		border-left: none;
+		border-top: solid 1px gray;
 	}
 
 	.contact-footer {
@@ -102,6 +106,10 @@
 		width: 250px;
 		font-size: 14px;
 		text-align: center;
+	}
+
+	.copyright {
+		margin-bottom: 5px;
 	}
 
 	.photo {

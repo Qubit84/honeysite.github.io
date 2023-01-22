@@ -419,12 +419,19 @@ footer {
 	justify-content: space-between;
 }
 
+.contact-footer-wrapper{
+	display: flex;
+	flex-direction: row;
+	border-left: solid 1px gray;
+}
+
 .copyright {
 	letter-spacing: 0.15em;
 }
 
 .contact-footer {
-	font-size: 15px;
+	font-size: 14px;
 	display: flex;
 	flex-direction: column;
+	margin: 10px 10px;
 }
